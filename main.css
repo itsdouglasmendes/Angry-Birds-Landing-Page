@@ -118,6 +118,47 @@ section {
     transition: all .55s ease;
 }
 
+.formulario {
+    background-color: rgb(206, 203, 203);
+    display: inline-block;
+    color: black;
+    margin-top: 50px;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+
+.formulario:hover {
+    background: #ffd1cf;
+    border: 1px solid white;
+    transform: translateX(8px);
+}
+
+.enviar {
+    background: #ffae00;
+    color: black;
+    display: inline-block;
+    margin-top: 50px;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+
+.enviar:hover {
+    border: 1px solid ; 
+    transform: translateX(8px)
+}
+
 .bird-text a:hover {
     background: transparent;
     border: 1px solid white;
